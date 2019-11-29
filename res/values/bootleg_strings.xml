@@ -770,4 +770,8 @@
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
 
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life in expanded status bar</string>
+
 </resources>
