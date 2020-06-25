@@ -28,6 +28,12 @@
             android:title="@string/volume_rocker_music_controls_title"
             android:defaultValue="false" />
 
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"
+            android:title="@string/kill_app_longpress_back"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!--<PreferenceCategory
