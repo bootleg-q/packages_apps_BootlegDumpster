@@ -118,6 +118,19 @@
         android:summary="@string/lockscreen_visualizer_summary"
         android:defaultValue="false"/>
 
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+	android:key="sysui_keyguard_show_battery_bar"
+        android:title="@string/tuner_keyguard_show_battery_bar_title"
+        android:summary="@string/tuner_keyguard_show_battery_bar_summary"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+	android:key="sysui_keyguard_show_battery_bar_always"
+        android:title="@string/tuner_keyguard_show_battery_bar_always_title"
+        android:summary="@string/tuner_keyguard_show_battery_bar_always_summary"
+        android:dependency="sysui_keyguard_show_battery_bar"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
