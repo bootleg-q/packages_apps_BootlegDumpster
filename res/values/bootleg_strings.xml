@@ -748,4 +748,8 @@
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
 
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">R-Style Notifications</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+
 </resources>

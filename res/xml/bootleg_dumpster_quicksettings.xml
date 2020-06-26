@@ -48,6 +48,12 @@
         android:defaultValue="false"/>
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+	android:key="notification_headers"
+        android:title="@string/notification_headers_title"
+        android:summary="@string/notification_headers_summary"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
         android:summary="@string/qs_running_services_summary"
